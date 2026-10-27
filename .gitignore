@@ -1,0 +1,61 @@
+# ============================
+# Swift Ship Tracker .gitignore
+# ============================
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment Variables (NEVER commit real secrets)
+.env
+.env.local
+.env.production
+backend/.env
+
+# SQLite Database (runtime data - not for version control)
+backend/data/*.sqlite
+backend/data/*.db
+
+# Build outputs
+dist/
+build/
+frontend/dist/
+
+# Vite cache
+.vite/
+**/.vite/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE / Editor files
+.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
