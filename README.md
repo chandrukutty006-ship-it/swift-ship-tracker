@@ -1,3 +1,10 @@
+s. chandru  
+k. shuaib ahamed
+Ranjitha
+Manikandan                                           
+
+
+
 # 🚢 Swift Ship Tracker - Live Cargo & Marine Vessel Tracking System
 
 > **Final Year Project (FYP)**: Full-Stack Web Application for Real-Time Multimodal Consignment Telemetry, Live Map Navigation, Autonomous GPS Route Simulation, Intelligent ETA Estimation, and Multimodal Bills of Lading.
